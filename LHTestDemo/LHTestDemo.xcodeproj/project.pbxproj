@@ -15,6 +15,8 @@
 		0B1E354A230BD5ED0032E59A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E3549230BD5ED0032E59A /* main.m */; };
 		0B1E3554230BD5ED0032E59A /* LHTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E3553230BD5ED0032E59A /* LHTestDemoTests.m */; };
 		0B1E355F230BD5ED0032E59A /* LHTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E355E230BD5ED0032E59A /* LHTestDemoUITests.m */; };
+		0B1E356F230BDC430032E59A /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E356E230BDC430032E59A /* Test.m */; };
+		0B1E3572230BDC520032E59A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E3571230BDC520032E59A /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		0B1E355A230BD5ED0032E59A /* LHTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B1E355E230BD5ED0032E59A /* LHTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHTestDemoUITests.m; sourceTree = "<group>"; };
 		0B1E3560230BD5ED0032E59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1E356D230BDC430032E59A /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		0B1E356E230BDC430032E59A /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		0B1E3570230BDC520032E59A /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0B1E3571230BDC520032E59A /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		0B1E3539230BD5EB0032E59A /* LHTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0B1E356C230BDC350032E59A /* Pods */,
 				0B1E353A230BD5EB0032E59A /* AppDelegate.h */,
 				0B1E353B230BD5EB0032E59A /* AppDelegate.m */,
 				0B1E353D230BD5EB0032E59A /* ViewController.h */,
@@ -130,6 +137,17 @@
 				0B1E3560230BD5ED0032E59A /* Info.plist */,
 			);
 			path = LHTestDemoUITests;
+			sourceTree = "<group>";
+		};
+		0B1E356C230BDC350032E59A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B1E356D230BDC430032E59A /* Test.h */,
+				0B1E356E230BDC430032E59A /* Test.m */,
+				0B1E3570230BDC520032E59A /* LoginViewController.h */,
+				0B1E3571230BDC520032E59A /* LoginViewController.m */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B1E353F230BD5EB0032E59A /* ViewController.m in Sources */,
+				0B1E356F230BDC430032E59A /* Test.m in Sources */,
 				0B1E354A230BD5ED0032E59A /* main.m in Sources */,
 				0B1E353C230BD5EB0032E59A /* AppDelegate.m in Sources */,
+				0B1E3572230BDC520032E59A /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
